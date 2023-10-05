@@ -1,0 +1,36 @@
+
+*{padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+scroll-behavior: smooth;
+}
+
+/*HEADER*/
+header{background: wheat;
+border-bottom: 1px solid wheat;
+position: fixed;
+width: 100%;
+z-index: 5;
+display: flex;
+align-items: center;
+padding: 20px;
+}
+.logo h2 a{color: black;}
+.navmenu{display: flex;
+}
+.navmenu i{color: black;
+text-transform: capitalize;
+padding: 10px 20px;
+font-weight: 400;
+transition:  5s ease;
+
+}
+.navmenu i :hover{color: blueviolet;}
+.naviconu a{display: flex;
+align-items: center;
+justify-content: center;
+transition: all .5 ease;}
+,.naviconu {transform: scale(1.1);
+}
